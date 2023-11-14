@@ -1,0 +1,28 @@
+.nc_card {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 1em;
+    padding: .5em 1em;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 700ms;
+    cursor: pointer;
+}
+
+.nc_card--title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nc_card--desc {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nc_card--hecha {
+    background-color: greenyellow;
+    color: black;
+}
